@@ -3,7 +3,7 @@ import React from "react";
 // stateless functional component:
 // Does not extend from React.Component - its purely presentational
 
-const Header = (props) => (
+const Header = props => (
 	<header className="top">
 		<h1>
 			Catch

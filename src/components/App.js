@@ -11,15 +11,14 @@ class App extends React.Component {
 		this.state = {
 			fishes: {},
 			order: {}
-		}
+		};
 	}
 
 	addFish(fish) {
 		// spread
-		const fishes = {...this.state.fishes};
-		const timestamp = Date.now();
+		const fishes = { ...this.state.fishes };
 		// update object in state
-		fishes[`fish-${timestamp}`] = fish;
+		fishes[`fish-${Date.now()}`] = fish;
 		// set state
 		this.setState({ fishes });
 	}
