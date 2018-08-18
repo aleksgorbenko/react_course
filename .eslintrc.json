@@ -1,8 +1,3 @@
 {
-	"extends": ["react-app", "plugin:prettier/recommended"],
-	"rules": {
-		"react/jsx-indent": [1, "tab"],
-		"jsx-a11y/href-no-hash": "off",
-		"jsxBracketSameLine": true
-	}
+	"extends": ["react-app", "plugin:prettier/recommended"]
 }
